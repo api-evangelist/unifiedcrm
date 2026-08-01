@@ -1,0 +1,19 @@
+{
+  "name": "UnifiedCRM",
+  "short_name": "UnifiedCRM",
+  "description": "UnifiedCRM — Mobile",
+  "start_url": "/m",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#007AFF",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    }
+  ]
+}

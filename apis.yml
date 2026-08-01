@@ -1,7 +1,11 @@
 aid: unifiedcrm
 name: UnifiedCRM
-description: UnifiedCRM is a company surfaced as a portfolio company of seedcamp and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: UnifiedCRM is a Seedcamp-backed startup (2023 investment) building a unified
+  sales hub for remote and hybrid teams — an AI-assisted CRM delivered as a web app and
+  PWA at unifiedcrm.ai, with features observed in the application such as email processing,
+  deal summarization, contact and company enrichment, and automated web research. The
+  company currently publishes no public developer API, documentation, SDKs, or
+  machine-readable specifications.
 url: https://raw.githubusercontent.com/api-evangelist/unifiedcrm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +13,45 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.unifiedcrm.ai/favicon.ico
 tags:
 - Company
+- CRM
+- Sales
+- Artificial Intelligence
+- SaaS
+- Startups
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 common:
 - type: Website
-  url: http://unifiedcrm.ai
+  url: https://www.unifiedcrm.ai
+- type: Login
+  url: https://www.unifiedcrm.ai/login
+- type: DomainSecurity
+  url: security/unifiedcrm-domain-security.yml
+- type: LLMsTxt
+  url: llms/unifiedcrm-llms.txt

@@ -1,0 +1,49 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of https://www.unifiedcrm.ai
+host: https://www.unifiedcrm.ai
+note: Every probed path returned HTTP 200 with the site's single-page-app HTML shell
+  (SPA catch-all fallback), not the actual well-known document, so no raw files were
+  saved. The provider publishes no real /.well-known/ discovery surface. content_type
+  records what the server actually returned.
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  content_type: text/html
+  spa_fallback: true
+  present: false
+- path: /.well-known/openid-configuration
+  status: 200
+  content_type: text/html
+  spa_fallback: true
+  present: false
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  content_type: text/html
+  spa_fallback: true
+  present: false
+- path: /.well-known/api-catalog
+  status: 200
+  content_type: text/html
+  spa_fallback: true
+  present: false
+- path: /.well-known/ai-plugin.json
+  status: 200
+  content_type: text/html
+  spa_fallback: true
+  present: false
+- path: /llms.txt
+  status: 200
+  content_type: text/html
+  spa_fallback: true
+  present: false
+- path: /robots.txt
+  status: 200
+  content_type: text/html
+  spa_fallback: true
+  present: false
+- path: /manifest.json
+  status: 200
+  content_type: application/json
+  present: true
+  file: unifiedcrm-manifest.json
