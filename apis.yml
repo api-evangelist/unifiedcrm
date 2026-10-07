@@ -65,6 +65,10 @@ x-enrichment:
   artifacts_added: 3
   pass: local-v1
 common:
+- type: Pricing
+  url: https://www.unifiedcrm.ai/pricing
+- type: Plans
+  url: plans/unifiedcrm-plans-pricing.yml
 - type: Website
   url: https://www.unifiedcrm.ai
 - type: Login
