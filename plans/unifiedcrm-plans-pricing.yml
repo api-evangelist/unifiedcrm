@@ -36,3 +36,33 @@ plans:
   included_quota: Seats Custom, Records Custom, Storage Custom, Credits Custom
 rate_limit_statements:
 - Up to 20 on Pro.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - metered
+  units:
+  - seat
+  plans:
+  - name: Free trial
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Pro
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - none
+  - name: Enterprise
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
