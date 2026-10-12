@@ -1,0 +1,62 @@
+generated: '2026-10-12'
+method: searched
+source:
+- https://zapier.com/apps/unifiedcrm/integrations
+checked:
+- https://composio.dev/toolkits/unifiedcrm
+- https://monid.ai/tools/unifiedcrm
+- https://n8n.io/integrations/unifiedcrm/
+- https://zapier.com/apps/unifiedcrm/integrations
+summary: null
+marketplace_apps:
+- marketplace: zapier
+  channel: ipaas-listing
+  app: unifiedcrm
+  url: https://zapier.com/apps/unifiedcrm/integrations
+  external_url: https://docs.unifiedcrm.ai/
+  partner_tier: BRONZE
+  triggers:
+  - key: note_event_fired
+    label: Notification Rule Triggered
+  actions:
+  - key: add_note_to_record
+    label: Add Note to Record
+  - key: create_contact
+    label: Create Contact
+  - key: create_lead
+    label: Create Lead
+  - key: create_workspace
+    label: Create Workspace
+  - key: customer_user_exists
+    label: Customer User Exists?
+  - key: customer_user_invited
+    label: Customer User Invited?
+  - key: find_user_by_email
+    label: Find Customer User by Email
+  - key: get_record
+    label: Get Record
+  - key: get_record_fied_value
+    label: Get Record Field Value
+  - key: invite_contact_or_lead
+    label: Invite Customer User
+  - key: set_record_field_value
+    label: Set Record Field Value
+  searches: []
+edges: []
+templates:
+- title: Create UnifiedCRM leads from new Typeform submissions
+  url: https://zapier.com/apps/typeform/integrations/unifiedcrm/255636706/create-unifiedcrm-leads-from-new-typeform-submissions
+  apps:
+  - typeform
+  - unifiedcrm
+- title: Create UnifiedCRM leads from new lemlist activity
+  url: https://zapier.com/apps/lemlist/integrations/unifiedcrm/255636707/create-unifiedcrm-leads-from-new-lemlist-activity
+  apps:
+  - lemlist
+  - unifiedcrm
+- title: Send direct messages in Slack when new notification rules are triggered in UnifiedCRM
+  url: https://zapier.com/apps/slack/integrations/unifiedcrm/255639209/send-direct-messages-in-slack-when-new-notification-rules-are-triggered-in-unifiedcrm
+  apps:
+  - unifiedcrm
+  - slack
+template_total: 3
